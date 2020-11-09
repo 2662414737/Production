@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:baselineAligned="false"
+    android:background="#F1F3F3">
+
+    <LinearLayout
+        android:id="@+id/lay_sy"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/img_sy"
+            android:layout_width="44dp"
+            android:background="@drawable/image_btn_1"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+             />
+<!--        android:src="@mipmap/sy"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_hy"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/img_hy"
+            android:background="#F1F3F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hy"
+            android:clickable="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好友"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_wd"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/img_wd"
+            android:background="#F1F3F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wd"
+            android:clickable="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+

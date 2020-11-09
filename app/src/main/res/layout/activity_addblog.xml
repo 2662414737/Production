@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".addblog.Addblog">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="#03A9F4"
+        app:title="添加攻略"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edit_mc"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:hint="请输入攻略名称"
+            android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/check_bh"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="崩坏3"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/check_wz"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="王者荣耀"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/check_zd"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="战地1"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/check_gz"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="公主连结"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入攻略内容"
+            android:id="@+id/edit_gl"
+            android:foregroundGravity="top"
+            android:minLines="10"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
