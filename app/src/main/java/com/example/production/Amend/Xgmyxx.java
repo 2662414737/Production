@@ -68,9 +68,6 @@ public class Xgmyxx extends AppCompatActivity {
         btn_xg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = getIntent();
-//                String strname = intent.getStringExtra("strname");
-
                 SQL sql = new SQL();
                 sql.OpenDB(Xgmyxx.this);
                 if (checkBox1.isChecked()){
@@ -92,13 +89,7 @@ public class Xgmyxx extends AppCompatActivity {
                 Intent intent1 = new Intent(Xgmyxx.this, MainHome.class);
                 intent1.putExtra("id",2);
                 startActivity(intent1);
-
-
             }
         });
-
-
-
-
     }
 }
